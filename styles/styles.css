@@ -1542,7 +1542,7 @@ img {
 @media (width>=768px) {
   .map__image-wrapper {
     background-image: -webkit-image-set(url(../images/map-tablet@1x.webp) 1x, url(../images/map-tablet@2x.webp) 2x);
-    background-image: image-set("../../images/map-tablet@1x.webp" 1x, "../../images/map-tablet@2x.webp" 2x);
+    background-image: image-set("../images/map-tablet@1x.webp" 1x, "../images/map-tablet@2x.webp" 2x);
     min-width: 768px;
     height: 480px;
   }
@@ -1550,7 +1550,7 @@ img {
 @media (width>=1440px) {
   .map__image-wrapper {
     background-image: -webkit-image-set(url(../images/map-desktop@1x.webp) 1x, url(../images/map-desktop@2x.webp) 2x);
-    background-image: image-set("../../images/map-desktop@1x.webp" 1x, "../../images/map-desktop@2x.webp" 2x);
+    background-image: image-set("../images/map-desktop@1x.webp" 1x, "../images/map-desktop@2x.webp" 2x);
     min-width: 1440px;
     height: 540px;
   }
